@@ -107,8 +107,8 @@ def forkla_repositories():
     maybe(
         http_archive,
         name = "rules_java",
-        sha256 = "4018e97c93f97680f1650ffd2a7530245b864ac543fd24fae8c02ba447cb2864",
-        url = "https://github.com/bazelbuild/rules_java/releases/download/7.3.1/rules_java-7.3.1.tar.gz",
+        sha256 = "4da3761f6855ad916568e2bfe86213ba6d2637f56b8360538a7fb6125abf6518",
+        url = "https://github.com/bazelbuild/rules_java/releases/download/7.5.0/rules_java-7.5.0.tar.gz",
     )
 
     # LICENSE: The Apache Software License, Version 2.0
